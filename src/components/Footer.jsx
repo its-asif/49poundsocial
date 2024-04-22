@@ -6,21 +6,21 @@ import { RiFacebookCircleFill } from "react-icons/ri";
 
 const Footer = () => {
     return (
-        <div className="bg-[#024963] px-20 pt-10 ">
+        <div className="bg-[#024963] px-4 md:px-20 pt-10 ">
             <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="p-6">
+                <div className="p-4  md:p-6">
                     <h1
-                        className="text-3xl font-bold text-white"
+                        className="text-xl md:text-3xl font-bold text-white"
                     > <span className="text-[#f7b141]"> Get More, Pay Less</span> It's All In Our Jam-Packed Plans!</h1>
 
-                    <div className="bg-[#f7b141] my-4 w-fit p-4 pr-32 rounded-2xl"> 
-                        <h1 className="text-3xl font-bold text-[#024963]">From £49 P/M</h1>
+                    <div className="bg-[#f7b141] my-4 w-fit p-4 pr-10 md:pr-32 rounded-2xl"> 
+                        <h1 className=" text-xl md:text-3xl font-bold text-[#024963]">From £49 P/M</h1>
                     </div>
 
                     <p className="text-white text-xs">Affordable social media management, dynamic blog content, and strategic social media marketing solutions. Small price, big impact!</p>
                 </div>
 
-                <div className="grid grid-cols-2 text-white px-10 pt-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 text-white gap-y-6 px-4 md:px-10 md:pt-6 mb-6">
 
                     <div className="flex flex-col gap-2">
                         <h1 className="cursor-pointer font-extrabold text-[#f7b141]">Useful Links</h1>
@@ -32,7 +32,7 @@ const Footer = () => {
                     
                     <div className="flex flex-col gap-2">
                         <h1 className="cursor-pointer font-extrabold text-[#f7b141]">Connect With Us</h1>
-                        <img src="logo.webp" alt="logo" className="w-40" />
+                        <img src="logo.webp" alt="logo" className="w-32 md:w-40" />
                         
                         <h1 className="flex gap-2 cursor-pointer text-sm hover:text-[#f7b141]"><CiMail className="mt-1"/> hello@49poundsocial.co.uk</h1>
                         <h1 className="flex gap-2 cursor-pointer text-sm hover:text-[#f7b141]"><FaLocationDot className="mt-1"/> 5 Brayford Square, LONDON E1 0SG</h1>

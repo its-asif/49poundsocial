@@ -38,12 +38,12 @@ const FAQ = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#f7b141] text-white p-10 mt-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#f7b141] text-white p-6 md:p-10 mt-10">
                 <div className="flex justify-center items-center">
-                    <img src="faq.webp" alt="" />
+                    <img src="faq.webp" className="w-1/2" alt="" />
                 </div>
                 <div>
-                <div className="space-y-4 p-6">
+                <div className="space-y-4 md:p-6">
                         {
                             qna.map((item, indx) => (
                                 <details className="group" key={indx}>

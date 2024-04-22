@@ -5,7 +5,7 @@ const TypeWriter = () => {
         <div className="my-10 bg-[#024963] text-white">
             
             <div className='flex justify-center my-4'>
-                <p className="my-6 text-4xl font-bold flex">
+                <p className="mx-2 my-6 text-2xl md:text-4xl font-bold flex flex-col lg:flex-row text-center">
                 A Social Media Company That's &nbsp;
                     <span className="text-[#f7b141]" >
                         <Typewriter

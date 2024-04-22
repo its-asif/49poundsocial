@@ -10,7 +10,7 @@ const Plans = () => {
                 <p>Explore our budget-friendly social media management bundles</p>
             </div>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 mx-32 gap-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 mx-6 md:mx-32 gap-10'>
                 <div className='text-[#024963] border-4 border-[#024963] rounded-2xl p-10'>
                     <h1 className="text-4xl font-bold text-center">Affordable</h1>
                     <h2 className="text-2xl font-bold text-center mt-2 mb-4">£49/month</h2>
